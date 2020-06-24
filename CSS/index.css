@@ -1,0 +1,90 @@
+/* Main components styling */
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #fafafa;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+/* Header Styling  */
+.navbar {
+  padding: 0px;
+}
+.navbar-toggler {
+  margin-right: 20px;
+}
+
+/* Main Body Styling  */
+
+hr {
+  border: none;
+  height: 4px;
+  background-color: rgba(97, 75, 75, 0.392);
+}
+
+h1 {
+  color: #58aaa5;
+}
+
+h6 {
+  font-size: 12px;
+  color: #fafafa;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: auto;
+}
+img {
+    width: 100%;
+  }
+  
+
+/* Footer Styling */
+footer {
+  border-top: 7px solid #58aaa5;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.591);
+  margin-top: auto;
+}
+
+/* Media queries styling  */
+@media (min-width: 300px) {
+  .navbar-brand {
+    font-size: 30px;
+    width: 82%;
+    background-color: #58aaa5;
+    text-align: center;
+    
+  }
+  .bg-dark {
+    background-color: #58aaa5;
+  }
+  .navbar-toggler-icon {
+    background-color: rgba(11, 21, 21, 0.824);
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    text-align: center;
+    font-size: 30px;
+    width: 180px;
+    padding: 20px;
+    margin: 0px;
+    background-color: #58aaa5;
+  }
+}
+
+@media (min-width: 980px) {
+    .navbar-brand {
+        font-size: 30px;
+        text-align: center;
+        width: 180px;
+        padding: 20px;
+        margin: 0px;
+        background-color: #58aaa5;
+}
+}
